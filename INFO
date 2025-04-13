@@ -1,0 +1,21 @@
+Game flow:
+
+IDLE
+  spinning camera on playfield.
+  Press any key dialogue.
+
+
+PLAYING
+  main function.
+  display score
+  disply hitpoints.
+
+  When hit:
+   Some knock back effect
+   Some hit point effect
+
+GAME OVER
+  transition to death animation?
+  disply score.
+  spinning camera on playfield.
+  timeout to IDLE

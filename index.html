@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>@Dodge: Zombies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        color: #c0c0c0;
+        font-family: "Times New Roman", Times, serif;
+        font-size:13px;
+        text-align:center;
+
+        background-color: #bfd1e5;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      #info {
+        position: absolute;
+        top: 0px; width: 100%;
+        padding: 5px;
+      }
+
+      a {
+
+        color: #99ff99;
+      }
+
+    </style>
+  </head>
+  <body
+  onkeydown="kdown(event)"
+  onkeyup="kup(event)"
+  onmousedown="MouseDown(event)"
+  onclick="MouseClick(event)"
+  onmouseup="MouseUp(event)"
+  >
+    <div id="container"><br /><br /><br /><br /><br />Generating world...</div>
+    <div id="info"><a href="https://www.zettix.com">zettix.com</a> Presents
+<b>Dodge: Zombies</b> <br />Arrow Keys To Play. Uses 
+<a href="https://threejs.org" target="_blank">three.js</a>
+</div><br>
+    <script src="three.min.js"></script>
+    <script src="Detector.js"></script>
+    <script src="stats.min.js"></script>
+    <script src="linterp.js"></script>
+    <script src="game.js"></script>
+    <script src="texutilz.js"></script>
+    <script src="marquee.js"></script>
+    <script src="run_cycle.js"></script>
+    <script src="jogger.js"></script>
+    <script src="plusup.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
